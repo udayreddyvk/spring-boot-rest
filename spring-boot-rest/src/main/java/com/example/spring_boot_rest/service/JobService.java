@@ -63,6 +63,6 @@ public class JobService {
     }
 
     public Object search(String keyword) {
-       return repo.findByPostProfileContainingOrPostDescContaining(keyword);
+       return repo.findByPostProfileContainingOrPostDescContaining(keyword,keyword);
     }
 }

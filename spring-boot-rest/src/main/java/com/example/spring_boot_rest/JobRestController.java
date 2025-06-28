@@ -14,7 +14,8 @@ import jakarta.annotation.PostConstruct;
 
 import java.util.List;
 
-@Controller()
+@RestController
+//@CrossOrigin(origins = "http://localhost:3000)
 public class JobRestController {
 
     @Autowired
